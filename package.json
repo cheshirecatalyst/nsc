@@ -1,0 +1,29 @@
+{
+  "name": "nsc",
+  "version": "0.1.0",
+  "repository": "cheshirecatalyst/nsc",
+  "homepage": "https://github.com/cheshirecatalyst/nsc",
+  "bugs": "https://github.com/cheshirecatalyst/nsc/issues",
+  "description": "Simply simple cache + prefetch",
+  "main": "lib/nsc.js",
+  "scripts": {
+    "test": "mocha --reporter nyan test/*-test.js",
+    "cover": "istanbul test _mocha"
+  },
+  "keywords": [
+    "cache"
+  ],
+  "engines": {
+    "node": ">= 0.10.x"
+  },
+  "author": "Seth Price <dekathexis@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "clone": "^1.0.2"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "istanbul": "^0.3.17",
+    "mocha": "^2.2.5"
+  }
+}
