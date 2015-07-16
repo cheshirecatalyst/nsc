@@ -1,0 +1,8 @@
+{
+  "execMap": {
+    "js": "iojs"
+  },
+    "verbose": false,
+    "watch dir": ["js","ejs","json"],
+    "ignore": ["coverage", "*.log", "*.md"]
+}
