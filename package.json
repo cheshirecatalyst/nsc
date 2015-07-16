@@ -1,9 +1,9 @@
 {
-  "name": "nsc",
+  "name": "nscp",
   "version": "0.1.0",
-  "repository": "cheshirecatalyst/nsc",
-  "homepage": "https://github.com/cheshirecatalyst/nsc",
-  "bugs": "https://github.com/cheshirecatalyst/nsc/issues",
+  "repository": "cheshirecatalyst/nscp",
+  "homepage": "https://github.com/cheshirecatalyst/nscp",
+  "bugs": "https://github.com/cheshirecatalyst/nscp/issues",
   "description": "Simply simple cache + prefetch",
   "main": "lib/nsc.js",
   "scripts": {
@@ -16,7 +16,7 @@
   "engines": {
     "node": ">= 0.10.x"
   },
-  "author": "Seth Price <dekathexis@gmail.com>",
+  "author": "Seth Price <seth.price@hotelquickly.com>",
   "license": "MIT",
   "dependencies": {
     "clone": "^1.0.2"
