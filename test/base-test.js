@@ -175,11 +175,11 @@ describe('NSC instance ttl with default ttl', function() {
         },100)
         setTimeout(function(){
             assert.equal(nsc.get('ttl:key:1'),undefined)
-        },1400)
+        },1410)
         setTimeout(function(){
             assert.equal(nsc.get('ttl:key:1'),'val')
             done()
-        },1401)
+        },1420)
     })
 
     it('Honors custom ttl override: no ttl', function(done) {
