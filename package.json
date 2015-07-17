@@ -1,14 +1,13 @@
 {
   "name": "nscp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": "cheshirecatalyst/nscp",
   "homepage": "https://github.com/cheshirecatalyst/nscp",
   "bugs": "https://github.com/cheshirecatalyst/nscp/issues",
   "description": "Simply simple cache + prefetch",
   "main": "lib/nsc.js",
   "scripts": {
-    "test": "mocha --reporter nyan test/*-test.js",
-    "cover": "istanbul test _mocha"
+    "test": "istanbul test _mocha"
   },
   "keywords": [
     "cache"
